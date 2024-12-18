@@ -1,0 +1,75 @@
+html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", serif;
+}
+
+.aho-opener, .aho-game-container {
+    width: 100%;
+    height: 100%;
+}
+
+.aho-opener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebb411;
+    color: #030e25;
+    flex-direction: column;
+}
+
+.aho-title {
+    font-size: 48px;
+}
+
+.aho-description {
+    font-size: 24px;
+}
+
+.aho-halfgap {
+    height: 0.5em;
+}
+
+.aho-gap {
+    height: 1em;
+}
+
+.aho-whalfgap {
+    width: 0.5em;
+}
+
+.aho-wgap {
+    width: 1em;
+}
+
+.aho-button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.aho-play-btn {
+    background: #030e25;
+    color: #ebb411;
+}
+
+.aho-howtoplay-btn {
+    border: solid 2px #030e25;
+    color: #030e25;
+}
+
+.aho-play-btn, .aho-howtoplay-btn {
+    font-size: 18px;
+    padding: 8px 24px;
+}
+
+.aho-play-btn:hover, .aho-howtoplay-btn:hover {
+    cursor: pointer;
+}
+
+.aho-logo {
+    width: 92px;
+    height: 92px;
+    background: red;
+}
